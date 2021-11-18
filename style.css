@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --ff-primary: "Merriweather", serif;
+  --ff-secondary: "Comforter Brush", cursive;
+
+  --fw-reg: 300;
+  --fw-bold: 900;
+
+  --clr-light: #fff;
+  --clr-dark: #0f1bbb;
+  --clr-accent: #c52a25;
+
+  --fs-h1: 2rem;
+  --fs-body: 1rem;
+  --fs-container: 4rem;
+  --fs-p: 5rem;
+}
+
+h1 {
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-image: url("/qpr.jpg");
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--ff-primary);
+  font-size: var(--fs-h1);
+  color: var(--clr-accent);
+  text-align: center;
+  flex-direction: column;
+  margin: 0;
+  display: flex;
+  min-height: 100vh;
+}
+
+.countdown-container {
+  display: flex;
+}
+
+.c-element span {
+  font-family: var(--ff-secondary);
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-container);
+  padding: 1em;
+}
+
+.big-text {
+  font-size: var(--fs-p);
+  line-height: 1;
+  margin: 0 2rem;
+  font-family: var(--ff-secondary);
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-p);
+}
+
+.countup {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.countup .timeel {
+  display: inline-block;
+  padding: 10px;
+  background: var(--clr-dark);
+  margin: 0;
+  color: var(--clr-accent);
+  min-width: 2.6rem;
+  margin-left: 13px;
+  border-radius: 10px 0 0 10px;
+}
+.countup span[class*="timeRef"] {
+  border-radius: 0 10px 10px 0;
+  margin-left: 0;
+  background: var(--clr-accent);
+  color: var(--clr-light);
+}

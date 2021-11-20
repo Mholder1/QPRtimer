@@ -10,8 +10,8 @@
   --fw-bold: 900;
 
   --clr-light: #fff;
-  --clr-dark: #0f1bbb;
-  --clr-accent: #c52a25;
+  --clr-blue: #0f1bbb;
+  --clr-red: #c52a25;
 
   --fs-h1: 2rem;
   --fs-body: 1rem;
@@ -25,19 +25,19 @@ h1 {
 }
 
 body {
-  background-image: url("/qpr.jpg");
+  background-image: url("/qpr_leaguecup_win.jpg");
   background-size: cover;
   background-position: center;
   justify-content: center;
   align-items: center;
   font-family: var(--ff-primary);
   font-size: var(--fs-h1);
-  color: var(--clr-accent);
+  color: var(--clr-blue);
   text-align: center;
   flex-direction: column;
-  margin: 0;
+  margin: 0 4rem;
   display: flex;
-  min-height: 100vh;
+  min-height: 80vh;
 }
 
 .countdown-container {
@@ -67,9 +67,9 @@ body {
 .countup .timeel {
   display: inline-block;
   padding: 10px;
-  background: var(--clr-dark);
+  background: var(--clr-red);
   margin: 0;
-  color: var(--clr-accent);
+  color: var(--clr-light);
   min-width: 2.6rem;
   margin-left: 13px;
   border-radius: 10px 0 0 10px;
@@ -77,6 +77,6 @@ body {
 .countup span[class*="timeRef"] {
   border-radius: 0 10px 10px 0;
   margin-left: 0;
-  background: var(--clr-accent);
+  background: var(--clr-blue);
   color: var(--clr-light);
 }

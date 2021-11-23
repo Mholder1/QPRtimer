@@ -4,8 +4,8 @@ window.onload = function() {
 
 
 window.onload = function() {
-    // Month Day, Year Hour:Minute:Second, id-of-element-container
-    countUpFromTime("Mar 5, 1967 12:00:00", 'countup1'); // ****** Change this line!
+   
+    countUpFromTime("Mar 5, 1967 12:00:00", 'countup1'); 
   };
   function countUpFromTime(countFrom, id) {
     countFrom = new Date(countFrom).getTime();
